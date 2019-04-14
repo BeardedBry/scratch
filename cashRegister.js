@@ -33,16 +33,18 @@ One-hundred Dollars	$100 (ONE HUNDRED)
 */
 
 function checkCashRegister(price, cash, cid) {
-    var change = cash - price;
+    var changeDue = cash - price;
+    let cashInDrawer = cid.map(cash => cash[1]);
+    console.log(cashInDrawer);
     // Here is your change, ma'am.
-    let x = change;
-    while(x < 0){
-       
+    let x = changeDue;
+    while(x < 0){ 
+
     }
+    
 
-
-    console.log(change);
-    console.log(totalCash - change);
+    // console.log(change);
+    // console.log(totalCash - change);
     return change;
   }
   
