@@ -39,7 +39,7 @@ function checkCashRegister(price, cash, cid) {
     // Here is your change, ma'am.
     let x = changeDue;
     while(x < 0){ 
-
+ 
     }
     
 
